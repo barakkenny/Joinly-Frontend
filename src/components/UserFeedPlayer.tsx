@@ -14,7 +14,7 @@ const UserFeedPlayer: React.FC<{ stream? : MediaStream}> = ({stream}) => {
     <div>
       <video 
       ref={videoRef}
-      style={{ width: '300px', height: '200px'}}
+      style={{ width: '1000px', height: '500px'}}
       muted={true}
       autoPlay
       />
